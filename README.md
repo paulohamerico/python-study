@@ -1,2 +1,2 @@
 # python-study
-All archieves utilizedin python study from "Curso em Vídeo" of Gustavo Guanabara
+All archieves utilized in Python study from "Curso em Vídeo" of Gustavo Guanabara
