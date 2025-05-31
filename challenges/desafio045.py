@@ -1,13 +1,14 @@
 #Crie um programa que faça o computador jogar Jokenpô com você.
 
 from random import randint
-import time
+from time import sleep
 
 print('Vamos jogar Jokenpô!')
-print('Escolha uma das opções abaixo:')
-print('1 = Pedra')
-print('2 = Papel')
-print('3 - Tesoura')
+print('''Escolha uma das opções abaixo:
+[1] Pedra
+[2] Papel
+[3] Tesoura''')
+
 
 opcoes = ['Pedra', 'Papel', 'Tesoura']
 usuario = int(input('Qual sua escolha?: '))
@@ -15,9 +16,9 @@ computador = randint(1,3)
 
 if 1 <= usuario <= 3:
     print('JO...')
-    time.sleep(0.5)
+    sleep(0.5)
     print('KEN...')
-    time.sleep(0.5)
+    sleep(0.5)
     print('PÔ!')
 
     print(f'Você escolheu: {opcoes[usuario - 1]}')
